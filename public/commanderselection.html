@@ -1,0 +1,23 @@
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Yes/No Questions</title>
+  <link href="commanderselection.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Yes/No/Both Questions</h1>
+    <div id="question-display"></div>
+    <div class="buttons">
+      <button onclick="answer('yes')">Yes</button>
+      <button onclick="answer('no')">No</button>
+      <button onclick="answer('both')">I like both</button>
+      <button onclick="index.html"><a href="index.html">Go Back to Homepage!</a></button>
+    </div>
+    <button id="next-question" onclick="displayQuestion()">Next Question</button>
+  </div>
+  <script src="commanderselection.js"></script>
+</body>
+</html>
